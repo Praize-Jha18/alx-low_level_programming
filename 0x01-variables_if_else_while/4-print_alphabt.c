@@ -21,6 +21,6 @@ putchar(lw);
 lw += 1;
 }
 }
-putchar("\n");
+putchar('\n');
 return  (0);
 }

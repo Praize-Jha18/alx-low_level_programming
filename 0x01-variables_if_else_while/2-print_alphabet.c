@@ -15,6 +15,6 @@ while (x <= 'z')
 putchar(x);
 x += 1;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
