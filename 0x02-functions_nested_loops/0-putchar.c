@@ -17,6 +17,6 @@ while (n < 8)
 _putchar(put_char[n]);
 n += 1;
 }
--putchar('\n');
+_putchar('\n');
 return (0);
 }
