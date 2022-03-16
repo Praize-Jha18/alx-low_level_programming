@@ -19,7 +19,7 @@ while (lw <= 'z')
 _putchar(lw);
 lw += 1;
 }
-_putchar('\n')
+_putchar('\n');
 n += 1;
 }
 }

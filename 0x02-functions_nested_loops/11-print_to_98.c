@@ -21,7 +21,7 @@ else if (n > 98)
 while (n > 98)
 {
 printf("%d, ", n);
-n -= 1
+n -= 1;
 }
 }
 if (n == 98)

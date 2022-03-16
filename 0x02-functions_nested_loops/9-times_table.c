@@ -12,7 +12,7 @@ int row, col;
 int mult = 0;
 for (row = 0; row < 10; row++)
 {
-for (col = 0; c0l < 10; col++)
+for (col = 0; col < 10; col++)
 {
 mult = (row * col);
 if (mult < 10)

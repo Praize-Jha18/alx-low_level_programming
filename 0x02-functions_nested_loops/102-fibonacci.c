@@ -20,7 +20,7 @@ else
 printf("%ld\n", tmp);
 i = j;
 j = tmp;
-n += 1
+n += 1;
 }
 return (0);
 }
