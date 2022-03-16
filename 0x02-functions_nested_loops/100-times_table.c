@@ -5,10 +5,12 @@
  * @n: input of table n
  * Return: nothing.
  */
+
+void print_times_table(int n)
+{
 int row, col;
 int mult = 0;
-{
-void print_times_table(int n)
+
 if (n <= 15 && n >= 0)
 {
 for (row = 0; row <= n; row++)
