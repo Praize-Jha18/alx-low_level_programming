@@ -1,33 +1,32 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * main - program that print numbers 1 to 100
- * prints fizz for the multiples of 3
- * prints multiples of 5 as buzz
- *
- * Returns: nothing
+ * main - program that prints the numbers from 1 to 100
+ * But for multiples of three print Fizz
+ * and for the multiples of five print Buzz
+ * Return: 0.
  */
-void main(void)
+
+int main(void)
 {
-int i;
-for (i = 1, i <= 100, i++)
-{
-if (i % 3 == 0)
-{
-printf("Fizz\n")
-}
-else if (i % 5 == 0)
-{
-printf("Buzz\n")
-}
-else if (i % 15 == 0)
-{
-printf("FizzBuzz\n")
-}
-else
-{
-printf("%d", i)
-}
-}
-return (0)
+	int num;
+
+	for (num = 1; num <= 100; num++)
+	{
+		if (num % 3 == 0 && num % 5 == 0)
+			printf("FizzBuzz ");
+		else if (num % 3 == 0 && num % 5 != 0)
+			printf("Fizz ");
+		else if (num % 5 == 0 && num % 3 != 0)
+		{
+			if (num == 100)
+				printf("Buzz");
+			else
+				 printf("Buzz ");
+		}
+		else
+			printf("%d ", num);
+	}
+	printf("\n");
+	return (0);
 }
